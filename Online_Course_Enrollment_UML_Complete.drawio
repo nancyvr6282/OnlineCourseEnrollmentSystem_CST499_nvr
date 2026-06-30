@@ -1,0 +1,447 @@
+<mxfile host="Electron" agent="ChatGPT" pages="5">
+  <diagram id="c3626d69a743" name="Use Case Diagram">
+    <mxGraphModel dx="1401" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Figure 1. Use Case Diagram for Online Course Enrollment System" vertex="1">
+          <mxGeometry height="30" width="560" x="260" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=1;" value="Online Course Enrollment System" vertex="1">
+          <mxGeometry height="630" width="780" x="150" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="student" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Student" vertex="1">
+          <mxGeometry height="100" width="60" x="40" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrator" vertex="1">
+          <mxGeometry height="100" width="70" x="990" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_register" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Register Account" vertex="1">
+          <mxGeometry height="50" width="220" x="250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_login" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Log In / Authenticate" vertex="1">
+          <mxGeometry height="50" width="220" x="250" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_profile" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Create / Update Profile" vertex="1">
+          <mxGeometry height="50" width="220" x="250" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_browse" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Browse Courses by Semester" vertex="1">
+          <mxGeometry height="50" width="220" x="250" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_enroll" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Enroll in Course" vertex="1">
+          <mxGeometry height="50" width="220" x="250" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_wait" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Join / View Waitlist" vertex="1">
+          <mxGeometry height="50" width="220" x="250" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_cancel" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cancel Enrollment" vertex="1">
+          <mxGeometry height="50" width="220" x="250" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_notify" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Receive Email Notification" vertex="1">
+          <mxGeometry height="50" width="220" x="250" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_manage" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Create / Update / Remove Course Offering" vertex="1">
+          <mxGeometry height="50" width="220" x="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_capacity" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Manage Course Capacity" vertex="1">
+          <mxGeometry height="50" width="220" x="600" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_monitor" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Monitor Enrollment &amp; Waitlists" vertex="1">
+          <mxGeometry height="50" width="220" x="600" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_reports" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Generate Enrollment Reports" vertex="1">
+          <mxGeometry height="50" width="220" x="600" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s_0" edge="1" parent="1" source="student" style="endArrow=none;html=1;rounded=0;" target="uc_register" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s_1" edge="1" parent="1" source="student" style="endArrow=none;html=1;rounded=0;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s_2" edge="1" parent="1" source="student" style="endArrow=none;html=1;rounded=0;" target="uc_profile" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s_3" edge="1" parent="1" source="student" style="endArrow=none;html=1;rounded=0;" target="uc_browse" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s_4" edge="1" parent="1" source="student" style="endArrow=none;html=1;rounded=0;" target="uc_enroll" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s_5" edge="1" parent="1" source="student" style="endArrow=none;html=1;rounded=0;" target="uc_wait" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s_6" edge="1" parent="1" source="student" style="endArrow=none;html=1;rounded=0;" target="uc_cancel" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s_7" edge="1" parent="1" source="student" style="endArrow=none;html=1;rounded=0;" target="uc_notify" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_0" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;" target="uc_manage" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_1" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;" target="uc_capacity" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_2" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;" target="uc_monitor" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_3" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;" target="uc_reports" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_4" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ext1" edge="1" parent="1" source="uc_enroll" style="endArrow=open;html=1;rounded=0;dashed=1;" target="uc_wait" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_inc1" edge="1" parent="1" source="uc_cancel" style="endArrow=open;html=1;rounded=0;dashed=1;" target="uc_notify" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1e56140f108e" name="Class Diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cl_title" value="Figure 2. Class Diagram for Online Course Enrollment System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="260" y="10" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user" value="&lt;b&gt;User&lt;/b&gt;&lt;hr&gt;userId: String&lt;br&gt;passwordHash: String&lt;br&gt;role: String&lt;br&gt;status: String&lt;hr&gt;register()&lt;br&gt;login()&lt;br&gt;logout()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="70" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="student" value="&lt;b&gt;Student&lt;/b&gt;&lt;hr&gt;studentId: String&lt;hr&gt;browseCourses()&lt;br&gt;enrollCourse()&lt;br&gt;joinWaitlist()&lt;br&gt;cancelEnrollment()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="230" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="&lt;b&gt;Administrator&lt;/b&gt;&lt;hr&gt;adminId: String&lt;hr&gt;manageCourses()&lt;br&gt;manageCapacity()&lt;br&gt;generateReports()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="230" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="profile" value="&lt;b&gt;Profile&lt;/b&gt;&lt;hr&gt;firstName: String&lt;br&gt;lastName: String&lt;br&gt;phone: String&lt;br&gt;email: String&lt;hr&gt;validateEmail()&lt;br&gt;updateProfile()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="380" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="semester" value="&lt;b&gt;Semester&lt;/b&gt;&lt;hr&gt;semesterId: String&lt;br&gt;name: Spring/Summer/Fall&lt;br&gt;year: Integer&lt;hr&gt;getCourses()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="500" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="course" value="&lt;b&gt;Course&lt;/b&gt;&lt;hr&gt;courseId: String&lt;br&gt;title: String&lt;br&gt;description: String&lt;br&gt;capacity: Integer&lt;br&gt;enrolledCount: Integer&lt;hr&gt;hasAvailableSeat()&lt;br&gt;updateCapacity()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="300" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="enrollment" value="&lt;b&gt;Enrollment&lt;/b&gt;&lt;hr&gt;enrollmentId: String&lt;br&gt;enrollmentDate: Date&lt;br&gt;status: String&lt;hr&gt;confirm()&lt;br&gt;cancel()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="520" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="waitlist" value="&lt;b&gt;WaitlistEntry&lt;/b&gt;&lt;hr&gt;waitlistId: String&lt;br&gt;requestTime: DateTime&lt;br&gt;position: Integer&lt;br&gt;status: String&lt;hr&gt;assignPosition()&lt;br&gt;notifyNextStudent()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="520" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="notification" value="&lt;b&gt;Notification&lt;/b&gt;&lt;hr&gt;notificationId: String&lt;br&gt;type: String&lt;br&gt;message: String&lt;br&gt;sentDate: DateTime&lt;hr&gt;sendEmail()&lt;br&gt;logNotification()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="380" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="inh1" value="" style="endArrow=block;endFill=0;html=1;" parent="1" edge="1" source="student" target="user">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inh2" value="" style="endArrow=block;endFill=0;html=1;" parent="1" edge="1" source="admin" target="user">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" value="1" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="student" target="profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="0..*" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="student" target="enrollment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="0..*" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="student" target="waitlist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="0..*" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="course" target="enrollment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" value="0..*" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="course" target="waitlist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" value="1..*" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="semester" target="course">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7" value="0..*" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="notification" target="student">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r8" value="0..*" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="notification" target="course">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9" value="manages" style="endArrow=open;html=1;rounded=0;" parent="1" edge="1" source="admin" target="course">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7ab71ba89207" name="Sequence Diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="seq_title" value="Figure 3. Sequence Diagram for Course Enrollment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="260" y="10" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_student" value="Student" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p_student_life" value="" style="shape=line;html=1;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="100" width="1" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="p_ui" value="Course Catalog UI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p_ui_life" value="" style="shape=line;html=1;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="100" width="1" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="p_auth" value="Auth/Profile Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p_auth_life" value="" style="shape=line;html=1;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="100" width="1" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="p_enroll" value="Enrollment Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p_enroll_life" value="" style="shape=line;html=1;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="100" width="1" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="p_course" value="Course Repository" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p_course_life" value="" style="shape=line;html=1;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="100" width="1" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="p_notify" value="Notification Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p_notify_life" value="" style="shape=line;html=1;strokeWidth=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="100" width="1" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="1. Select semester/course" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_student_life" target="p_ui_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="130" as="sourcePoint" />
+            <mxPoint x="0" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" value="2. Validate logged-in student" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_ui_life" target="p_auth_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="170" as="sourcePoint" />
+            <mxPoint x="0" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" value="3. Request enrollment" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_ui_life" target="p_enroll_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="210" as="sourcePoint" />
+            <mxPoint x="0" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" value="4. Check course capacity" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_enroll_life" target="p_course_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="250" as="sourcePoint" />
+            <mxPoint x="0" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" value="5. Seat available / full" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_course_life" target="p_enroll_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="290" as="sourcePoint" />
+            <mxPoint x="0" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" value="6a. Create enrollment record" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_enroll_life" target="p_course_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="340" as="sourcePoint" />
+            <mxPoint x="0" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" value="7a. Send confirmation" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_enroll_life" target="p_notify_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="380" as="sourcePoint" />
+            <mxPoint x="0" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" value="8a. Display confirmation" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_ui_life" target="p_student_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="430" as="sourcePoint" />
+            <mxPoint x="0" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" value="6b. Add to waitlist if full" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_enroll_life" target="p_course_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="510" as="sourcePoint" />
+            <mxPoint x="0" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" value="7b. Send waitlist position" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_enroll_life" target="p_notify_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="550" as="sourcePoint" />
+            <mxPoint x="0" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11" value="8b. Display waitlist status" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="p_ui_life" target="p_student_life">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="600" as="sourcePoint" />
+            <mxPoint x="0" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alt1" value="alt: seats available" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="320" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="alt2" value="else: course full" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="490" width="470" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5dafcf4561e9" name="Activity Diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="act_title" value="Figure 4. Activity Diagram for Registration and Enrollment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="10" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="500" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="Open registration page" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="110" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="Enter user ID, password, and profile data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="User ID unique?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="Reject duplicate ID and show error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="290" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" value="Encrypt password and create account" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="390" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" value="Log in" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="470" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" value="Browse courses by semester" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="550" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="Seat available?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" value="Create enrollment record" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="750" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" value="Add student to waitlist" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="750" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" value="Send confirmation or waitlist notice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="820" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="500" y="900" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ae1" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="start" target="a1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae2" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a1" target="a2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae3" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a2" target="d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae4" value="No" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="d1" target="a3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae5" value="Yes" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="d1" target="a4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae6" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a4" target="a5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae7" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a5" target="a6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae8" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a6" target="d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae9" value="Yes" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="d2" target="a7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae10" value="No" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="d2" target="a8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae11" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a7" target="a9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae12" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a8" target="a9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae13" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a9" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ae14" value="Retry" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="a3" target="a2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0af6b70fa6fa" name="State Diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="st_title" value="Figure 5. State Diagram for Course Registration Status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="260" y="10" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="st_start" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="70" y="230" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="not" value="Not Enrolled" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="checking" value="Checking Capacity" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="enrolled" value="Enrolled" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="waitlisted" value="Waitlisted" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="notified" value="Seat Notification Sent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="310" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cancelled" value="Canceled" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="st_end" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="230" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="se1" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="st_start" target="not">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se2" value="Student selects enroll" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="not" target="checking">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se3" value="Seat available" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="checking" target="enrolled">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se4" value="Course full" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="checking" target="waitlisted">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se5" value="Student cancels" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="enrolled" target="cancelled">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se6" value="Seat opens" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="waitlisted" target="notified">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se7" value="Student accepts seat" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="notified" target="enrolled">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se8" value="Student declines / expires" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="notified" target="waitlisted">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="se9" value="" style="endArrow=block;html=1;rounded=0;" parent="1" edge="1" source="cancelled" target="st_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
